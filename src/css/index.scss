@@ -1,0 +1,27 @@
+input {
+    display: none;
+}
+input + label::after {
+    content: '查看源代码';
+}
+input:checked + label::after {
+    content: '隐藏源代码';
+}
+input:checked + label::after {
+    centent: '隐藏源代码';
+}
+input + label + pre {
+    display: none;
+}
+input:checked + label + pre {
+    display: block;
+}
+
+.side-bar {
+    width: 300px;
+    float: left;
+}
+#demo {
+    padding-left: 320px;
+}
+  
